@@ -1,0 +1,147 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bolder;
+  color: black;
+  text-decoration: underline;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links > a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.nav-links .active {
+  color: blue;
+  font-weight: bold;
+}
+.nav .head {
+  font-size: x-large;
+  text-decoration: none;
+}
+.profile {
+}
+.profile img {
+  border: 2px blue solid;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profile img:hover {
+  opacity: 0.7;
+}
+.products {
+  margin: 50px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.products > div {
+  margin: 20px;
+  padding: 30px 30px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.products :nth-child(even) {
+  background-color: skyblue;
+}
+.products > div h3 {
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.products :nth-child(even) h3 {
+  background-color: aliceblue;
+}
+footer {
+  background-color: aliceblue;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+footer p {
+  text-align: center;
+  font-size: x-small;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.footer-links > div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+/* about page */
+video {
+  text-align: center;
+  margin: 20px 20px;
+}
+article {
+  border-radius: 10px;
+  margin: 20px 20px;
+  padding: 20px 20px;
+  background-color: aliceblue;
+}
+article p {
+  font-size: large;
+  color: blue;
+}
+article aside {
+  width: 10%;
+  padding: 0px 50px;
+  margin: 0;
+  float: right;
+  font-style: italic;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: rgb(58, 211, 238);
+}
+article aside h1 {
+  color: black;
+}
+article h1 {
+  color: blue;
+}
+article h1 span {
+  font-size: small;
+  color: black;
+}
+/* categories */
+.categories {
+  color: black;
+  text-align: center;
+  margin: 140px 100px;
+}
+.categories aside {
+  width: 20%;
+  float: left;
+}
+/* cart */
+figure {
+  text-align: center;
+  margin: 50px;
+}
+figcaption {
+  font-size: large;
+  text-align: center;
+}
